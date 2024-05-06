@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Liste de course partagée </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form action="produits.php" method="post">
+    <fieldset>
+      <legend> NOUVEAU PRODUIT </legend>
+      Nom du produit : <input type="text" id="nom" name="nom" maxlength="50" required>
+      </br>
+      Catégorie :
+      <select name="categorie" id="cat" size="1">
+        <option value="FRUITS">Fruits</option>
+        <option value="LEGUMES">Légumes</option>
+        <option value="LAITIERS">Produits laitiers</option>
+        <option value="VIANDES">Viandes</option>
+        <option value="BOISSONS">Boissons</option>
+        <option value="SURGELES">Surgelés</option>
+        <option value="AUTRES"> Autres</option>
+      </select>
+      <br />
+      Quantité :
+      <input type="number" id="quantite" name="quantite" min="0" max="1000" required>
+      <br />
+      Commentaire :
+      <input type="text" id="commentaire" name="commentaire" maxlength="50" placeholder="facultatif">
+      <br />
+      <input type="submit" value="send">
+
+  </form>
+</body>
+
+<body>
+
+</body>

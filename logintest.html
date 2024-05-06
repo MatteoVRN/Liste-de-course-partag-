@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Liste de course partagée </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div class="rectangle">
+    <p class="titre""> LISTE DE COURSE PARTAGEE </p>
+  </div>
+
+  <form action=" profil.php" method="post" class="center">
+
+    <fieldset>
+      <legend> Se connecter </legend>
+      <div class="center">
+        <label for="email">Adresse e-mail :</label>
+
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="center">
+
+        <label for="password3">Mot de passe : </label>
+        <input type="password" id="password3" name="password3"></br>
+        </br>
+      </div>
+      <div class="center">
+        <input type="submit" value="Se connecter" onclick="connection()">
+      </div>
+      </br>
+
+      <div class="center">
+        <input type="button" class="MdpF " id="MdpF" name="MdpF" value="Mot de passe oublié ?" onclick="oublie()" />
+
+        <input type="button" id="Creat" name="Creat" value="Vous n'avez pas de compte ?" onclick="creat()" />
+        </br>
+      </div>
+
+    </fieldset>
+
+    </form>

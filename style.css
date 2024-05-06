@@ -1,0 +1,159 @@
+.rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titre {
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+  font-family: 'Times New Roman', Times, serif;
+  font-variant-caps: all-small-caps;
+}
+
+.separation-horiz {
+  border-bottom: 4px solid black;
+  margin-bottom: 20px;
+}
+
+.separation-verti {
+  width: 5px;
+  border-left: 4px solid black;
+  height: 500px;
+  margin: 0px 150px;
+}
+
+.profil {
+  font-size: 1.5rem;
+  border: 0;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 20px;
+}
+
+
+.ajouterliste {
+  font-size: 1.5rem;
+  border: 0;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+
+.nouv {
+  font-size: 1.5rem;
+  border: 0;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+
+.menu {
+  width: 100%;
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+   display: flex; 
+}
+
+.container {
+  width : 25%;
+  background-color:  green;
+  align-items: center;
+  
+}
+.abs {
+  position: sticky;
+  width: 100%;
+  top: 0px;
+
+  border: 1px solid black;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: darkgreen;
+}
+
+.emplacement_liste {
+  float: right;
+  width: 75%;
+  height: 500 px;
+  border: 1px solid black;
+
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: gray;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input+input {
+  margin-left: 20px;
+}
+
+div.center button+input {
+  margin-left: 20px;
+}
+
+[placeholder]{
+  font-style: italic;
+}
+
+form.center label+input{
+  display: flex;
+  align-items: center;
+  
+}
+.page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; 
+  justify-content: center;
+  height: 100vh;
+  overflow: auto;
+} 
+
+/*.page .child {
+  width: 50%;
+} */
+
+.liste {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  /* espace entre le contenu et la bordure */
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #e5e1dc;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  position: relative;
+}
+
+.liste h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: #333;
+}
+
+.liste button {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ce9c9c;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+

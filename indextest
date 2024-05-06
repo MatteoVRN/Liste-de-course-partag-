@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Liste de course partagée </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <div class="rectangle">
+    <p class="titre""> LISTE DE COURSE PARTAGEE </p>
+  </div>
+
+  <div class="separation-horiz"></div>
+
+  </br>
+
+  <input type="button"  class="profil "id="profil" name="Mon Profil" value="Mon Profil" onclick="window.location.href='profil.html'" />
+
+  <div class="separation-verti" >
+
+    <input type="button"  class="ajouterliste" id="ajouterliste" name="ajouterliste" value="Ajouter une nouvelle liste de course partagée " onclick="window.location.href='ajouterliste.html'" /> 
+
+
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>

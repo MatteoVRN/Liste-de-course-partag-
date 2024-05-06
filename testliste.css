@@ -1,0 +1,48 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; 
+  justify-content: center;
+  height: 100vh;
+  overflow: auto;
+} 
+
+/*.page .child {
+  width: 50%;
+} */
+
+.liste {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  /* espace entre le contenu et la bordure */
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #e5e1dc;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  position: relative;
+}
+
+.liste h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: #333;
+}
+
+.liste button {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ce9c9c;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
